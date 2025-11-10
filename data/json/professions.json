@@ -8057,5 +8057,47 @@
       "male": { "entries": [ { "item": "boxer_shorts" } ] },
       "female": { "entries": [ { "item": "panties" } ] }
     }
+  },
+  {
+    "type": "profession",
+    "id": "civilwar_reenactor",
+    "name": "Civil War Reenactor",
+    "description": "You were preparing for a local Civil War reenactment when the cataclysm struck.  Your authentic reproduction rifle and period clothing might not be modern, but they're better than nothing in this new world.",
+    "points": 2,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_metalworking", "prof_gunsmithing_antique", "prof_gun_cleaning" ],
+    "skills": [
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "rifle" },
+      { "level": 2, "name": "mechanics" },
+      { "level": 2, "name": "tailor" },
+      { "level": 1, "name": "cooking" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "hat_cotton" },
+          { "item": "pants" },
+          { "item": "peacoat" },
+          { "item": "waistcoat" },
+          { "item": "socks" },
+          { "item": "boots" },
+          { "item": "leather_belt" },
+          { "item": "backpack" },
+          { "item": "pockknife" },
+          {
+            "item": "sharps",
+            "ammo-item": "reloaded_4570_bp",
+            "charges": 1,
+            "contents-item": "shoulder_strap_simple"
+          },
+          { "item": "ammo_pouch", "contents-item": "reloaded_4570_bp", "charges": 30 },
+          { "item": "hardtack", "count": 5 },
+          { "item": "water_clean", "container-item": "2lcanteen" },
+          { "group": "charged_smart_phone" },
+          { "group": "starter_wallet_full" },
+          { "group": "charged_matches" }
+        ]
+      }
+    }
   }
 ]
