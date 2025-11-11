@@ -8079,9 +8079,10 @@
           { "item": "pants" },
           { "item": "peacoat" },
           { "item": "waistcoat" },
+          { "item": "undershirt" },
           { "item": "socks" },
+          { "item": "long_underpants" },
           { "item": "boots" },
-          { "item": "leather_belt" },
           { "item": "backpack" },
           { "item": "pockknife" },
           {
@@ -8090,7 +8091,9 @@
             "charges": 1,
             "contents-item": "shoulder_strap_simple"
           },
-          { "item": "ammo_pouch", "contents-item": "reloaded_4570_bp", "charges": 30 },
+          { "item": "ammo_pouch" },
+          { "item": "reloaded_4570_bp", "charges": 30 },
+          { "item": "knife_combat", "container-item": "sheath" },
           { "item": "hardtack", "count": 5 },
           { "item": "water_clean", "container-item": "2lcanteen" },
           { "group": "charged_smart_phone" },
