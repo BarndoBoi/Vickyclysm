@@ -1501,5 +1501,19 @@
       { "group": "eggs_in_carton", "prob": 50, "count": [ 1, 2 ] },
       { "group": "eggs_in_carton", "prob": 40, "count": [ 1, 3 ] }
     ]
-  }
+  },
+  [
+    {
+      "type": "item_group",
+      "id": "bakery_bread_sales",
+      "subtype": "collection",
+      "//": "Various kinds of bread for sale in a bakery on its shelves.",
+      "entries": [
+        { "group": "bread_in_bag", "prob": 65, "count": [ 2, 3] },
+        { "group": "flatbread_in_bag_full", "prob": 40, "count": [1, 2] },
+        { "group": "brown_bread_in_bag", "prob": 30, "count": [1, 2] },
+        { "group": "garlic_bread_in_bag", "prob": 20, "count": [1, 2] }
+      ]
+    }
+  ]
 ]

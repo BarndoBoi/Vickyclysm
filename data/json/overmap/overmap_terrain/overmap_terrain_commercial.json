@@ -1069,7 +1069,7 @@
   },
   {
     "type": "overmap_terrain",
-    "id": "bakery",
+    "id": ["bakery", "bakery_bread_shop"],
     "name": "bakery",
     "copy-from": "generic_city_building",
     "color": "yellow_white",
